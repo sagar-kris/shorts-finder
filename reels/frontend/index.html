@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find My Shorts</title>
+    <link rel="stylesheet" href="reels/frontend/styles.css">
+</head>
+
+<body>
+    <h1>Make searching over your Youtube Shorts collection a reality</h1>
+    <h3>generate AI-assisted video transcriptions behind the scenes</h3>
+
+    <div class="container" style="margin-top: 50px;">
+        <!-- <label for="train-input">Reel ID:</label> -->
+        <input type="text" id="train-input" name="train-input" placeholder="Enter YT Shorts ID(s)">
+        <button onclick="runTrain()">Add to Collection</button>
+    </div>
+    <div class="loader-container" id="loader" style="display: none;">
+        <!-- Other content -->
+        <div class="loader" id="loader"></div>
+    </div>
+    <div class="container" style="margin-top: 10px;">
+        <!-- <label for="inference-input">Search Text:</label> -->
+        <input type="text" id="inference-input" name="inference-input" placeholder="Enter Search Text">
+        <button onclick="runInference()">Search my Shorts</button>
+    </div>
+    <div id="video-container">
+        <!-- YouTube iframes will be added here dynamically -->
+    </div>
+
+    <script src="reels/frontend/script.js"></script>
+</body>
+
+</html>

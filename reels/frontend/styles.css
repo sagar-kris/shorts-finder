@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dfc0b2eb;  /* Light Peach Background */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h1 {
+    color: #6b3f6e;  /* Dark Purple Text */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: #211722;  /* Dark Purple Text */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    background-color: #6b3f6e;  /* Dark Purple Box */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-bottom: 60px;  /* Space between containers */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #e8e2db;  /* Off White Text */
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e8e2db;  /* Off White Border */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #e8e2db;  /* Off White Button */
+    border: none;
+    color: #6a0572;  /* Dark Purple Text */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #ab83a1;  /* Light Purple Hover */
+    color: #e8e2db;  /* Off White Text */
+}
+
+.loader-container {
+    position: relative;
+    min-height: 100px;
+}
+
+.loader {
+    border: 4px solid #e8e2db;
+    border-top: 4px solid #6b3f6e;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    margin: -20px 0 0 -20px; /* Offset by half the width/height */
+    z-index: 1000; /* Make sure this is above other content but below overlays */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%; /* Ensures the container takes up the full width */
+    margin: auto; /* Added to ensure any auto-margins are applied */
+}
+
+#video-container iframe {
+    max-width: 100%;
+    margin: 10px 0; /* Adds space between the videos if stacked */
+}  

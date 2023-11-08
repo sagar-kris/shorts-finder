@@ -1,0 +1,28 @@
+yt-dlp
+# TODO: replace huggingsound with whisper (incompatible torch version)
+huggingsound@ git+https://github.com/jonatasgrosman/huggingsound.git@50e9fbaa41377c11d6ef9711700dbc1eae1cd7b0
+moviepy
+pytesseract
+numpy
+scipy
+tiktoken
+openai
+# llama-cpp-python@ git+https://github.com/abetlen/llama-cpp-python.git@b30b9c338bf9af316d497ea501d39f5c246900db
+llama-cpp-python@ git+https://github.com/damian0815/llama-cpp-python.git@feat_llava_integration
+llama-cpp-python[server]
+nltk
+python-Levenshtein
+rapidfuzz==2.13.7
+fuzzywuzzy[speedup]
+gradio-client
+# transformers@ git+https://github.com/huggingface/transformers.git@093848d3ccf3884caf048718b6bae833da0edb94
+# torch@ git+https://github.com/pytorch/pytorch.git@c65c0682b19ed479ea66653fc0457958a3e2c59c
+# --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu   # nightly build
+torch==2.1.0
+accelerate
+pinecone-client
+pymongo
+# dnspython
+fastapi
+uvicorn
+# litellm
