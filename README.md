@@ -3,7 +3,7 @@
 Unlock the power of multimodal video search, in your pocket. Shorts Finder searches over your personal collection of Youtube Shorts videos and surfaces only the most relevant results.
 
 ## Click to watch the Demo Video:
-[![Shorts Finder - Demo Video] (https://img.youtube.com/vi/lSzqGAyStS8/maxresdefault.jpg)](https://www.youtube.com/shorts/lSzqGAyStS8)
+[![Shorts Finder - Demo Video](https://img.youtube.com/vi/lSzqGAyStS8/maxresdefault.jpg)](https://www.youtube.com/shorts/lSzqGAyStS8)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
