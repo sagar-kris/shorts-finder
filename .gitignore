@@ -32,10 +32,12 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+pyenv.cfg
 
 # repo specific
+.gitignore
+.python-version
 Dockerfile
-pyenv.cfg
 prompts_outputs.txt
 reels/instagram_cookies.txt
 reels/experiments/
