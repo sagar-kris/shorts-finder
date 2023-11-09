@@ -15,6 +15,16 @@ Every time you come across a Short you like, simple copy the link and hit "Add t
 
 Type your search query and hit "Search my Shorts". The results should be embedded directly in the webpage, with the most relevant results first.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Requirements
+
+* Apple M1 Pro or higher (to run Llava-1.5 with MPS)
+* 16 GB memory
+* OpenAI API key
+* Pinecone API key, Pinecone env
+* MongoDB username, MongoDB password
+
 
 <!-- ## Architecture
 
